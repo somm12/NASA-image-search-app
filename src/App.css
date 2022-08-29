@@ -1,0 +1,52 @@
+/*검색바 정렬*/
+nav{
+	justify-content: center;
+}
+/* 검색결과 없음 정렬 */
+.no-result{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+/* loading... 문구 정렬 */
+.loading{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+/* 검색창 검색버튼 정렬 */
+.search-bar{
+	display: flex;
+}
+/* Home.js에서 나타나는 모든 tag 세로로 정렬. mvp.css에서 section 기본 display:flex. */
+.home-section{
+	flex-direction: column;
+}
+/* 
+title이 긴 card 때문에 최소 height를 지정
+사진 크기 조정
+card title, description 보이는 글자수 설정.
+*/
+.card-title{
+	min-height: 50px;
+}
+
+.card-photo{
+	height: 250px;
+}
+.card-title{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 라인수 */
+    -webkit-box-orient: vertical;
+    word-wrap:break-word;
+}
+.description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7; /* 라인수 */
+    -webkit-box-orient: vertical;
+    word-wrap:break-word; 
+}
