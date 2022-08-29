@@ -28,8 +28,8 @@
 > 검색한 이미지를 불러오는데 시간이 조금 걸릴 때, 로딩화면을 볼 수 있습니다.
 -----------------------------------------
 <div>
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/63543733/187103944-4f488cc1-6cb1-4369-bdd3-e6976203ad9f.png">
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/63543733/187103981-01efe253-5183-47d8-99e3-40d12bb3cba6.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/63543733/187103944-4f488cc1-6cb1-4369-bdd3-e6976203ad9f.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/63543733/187103981-01efe253-5183-47d8-99e3-40d12bb3cba6.png">
 </div>
 
 ### 검색 화면 <br>
